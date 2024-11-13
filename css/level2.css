@@ -1,0 +1,97 @@
+#bodyLevelOne {
+    font-family: 'Lora', serif;
+    background-image: url(../img/zombie-2-3-pixilart.png); 
+    background-size: cover;
+    background-position: left;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#player {
+    position: absolute; /* Hierdoor kan de afbeelding vrij bewegen */
+    width: 150px; /* Pas de grootte van de afbeelding aan */
+    height: 550; /* Houd de verhouding van de afbeelding */
+}
+#zombieImage {
+    position: absolute; /* Hierdoor kan de afbeelding vrij bewegen */
+    width: 250px; /* Pas de grootte van de afbeelding aan */
+    height: 650; /* Houd de verhouding van de afbeelding */ 
+}
+
+#Volgendlevel{
+    margin-left: 3817px;
+    margin-top: -12px;
+    padding: 30px;
+    width: -100px;
+    height: 10px;
+}
+a {
+    size: 100px;
+}
+.exit-btn {
+    position: absolute; 
+    top: 18px;          
+    right: 15px;        
+    background-color: #f44336; 
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: #d7680d; 
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    border: none;
+}
+
+.save-btn {
+    position: absolute; 
+    top: 18px;          
+    left: 15px;        
+    background-color: #f44336; 
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: #d7680d; 
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 1.2em;
+    border: none;
+}
+
+.button:hover {
+    background: #651a16da;
+}
+
+
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    position: relative;
+    overflow: hidden;
+}
+.bullet {
+    position: absolute;
+    width: 115px; /* Pas de grootte aan indien nodig */
+    height: 60px;
+    background-image: url(../img/Bullet.png); /* Kleur van de kogel */
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Zwarte achtergrond met transparantie */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Zorg ervoor dat het bovenop andere elementen staat */
+    display: none; /* Begin met verbergen */
+}
+.deathMessage {
+    text-align: center;
+}
+
+

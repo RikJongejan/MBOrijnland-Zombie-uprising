@@ -1,0 +1,48 @@
+h2 {
+    opacity: 1;
+}
+/* Stijl voor de buitenste box */
+.settingbox {
+    margin-top:5%;
+    width: 265px;
+    height: 280px;
+    padding: 20px;
+    background-color:#651a16da;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: opacity 0.3s ease;
+    opacity: 0.85;
+    border-radius: 10px;
+    font-family: 'Lora', serif;
+
+}
+
+.settingtable{
+    margin-left: 5%;
+    margin-top:5%;
+    width: 200px;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    background-color:#f44336;
+    border-radius: 10px;
+    opacity: 1;
+    font-family: 'Lora', serif;
+
+}
+.label, select, input, button {
+    font-size: 16px;
+}
+
+input[type=range] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.exitbox button{
+    background-color: #f44336;
+    font-family:'Lora', serif ;
+    border-radius: 10px;
+    box-shadow: #d7680d;
+    border: none;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/level1.css">
+</head>
+<body id="bodyLevelOne">
+    <img id="player" src="img/Anton Prajo 1.png" alt="player" >
+    <img id="zombieImage" src="img/Zombie neut arm hoog.png" alt="Bewegende Foto">
+        
+        <audio id="shoot" src="img/shootsound.mp3"></audio>
+        <audio id="backgroundMusic" src="img/halloween-comedy-121626.mp3" loop autoplay></audio>
+        <audio id="backgroundMusic1" src="img/mixkit-scary-wind-1162.wav" loop autoplay></audio>
+        <audio id="jump" src="img/feet-landing-jump-epic-stock-media-3-3-00-00.mp3"></audio>
+        <audio id="walkingPlayer" src="img/walking-on-a-wooden-floor-32056 (mp3cut.net).mp3"></audio>
+ <script src="script.js"></script>
+            <a href="level2.html">
+        <img id="Volgendlevel" src="img/knop.png" alt="Next Level">
+    </a>
+    <div>
+        <button class="button exit-btn"onclick="exitGame()">Exit</button>
+    </div>
+    <div>
+        <button class="button save-btn"onclick="saveGame()">Save</button>
+    </div>
+    <div id="deathScreen" class="overlay">
+        <div class="deathMessage">
+            <h1>Game Over</h1>
+            <p>Je bent dood!</p>
+            <button onclick="restartGame()">Opnieuw Spelen</button>
+            <button onclick="exitGame()">Verlaten</button>
+        </div>
+        <div id="healthDisplay">Health: 100</div>
+        
+    <script src="script/level1.js"></script>
+</body>
+</html>

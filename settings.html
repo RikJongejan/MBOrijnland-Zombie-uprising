@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBORijnLand - Zombie Uprising</title>
+    <link rel="stylesheet" href="css/settings.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="bodyMain">
+    <div id="settingsBox" class="settingbox">
+        <h2>Instellingen</h2>
+        <div class="settingtable">
+            <label for="volume">Volume: </label>
+            <input type="range" id="volume" name="volume" min="0" max="100" value="50" oninput="setVolume(this.value)">
+            <span id="volumeValue">50</span>
+        </div>
+
+    
+        <div class="exitbox">
+            <button><a href="index.html">Exit</a></button>
+        </div>
+    </div>
+    <audio id="backgroundMusic" src="img/what-we-lost-tv-movie-game-theme-zombie-virus-apocalypse-143267.mp3" loop autoplay></audio>
+</body>
+<script src="script/settings.js"></script>
+</html>
